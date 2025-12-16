@@ -1,0 +1,150 @@
+/*
+ * AUGMENTOUS AI Landing Page Styles
+ * Final version with fixed deep purple background, subtle stars,
+ * and mouse-based parallax effect.
+ */
+
+/* --- Base Body Styles --- */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden; 
+    /* Default text color: White @ 80% opacity */
+    color: rgba(255, 255, 255, 0.8); 
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* Fixed Deep Luminescent Purple Background */
+    background: radial-gradient(circle at 50% 50%, #1A0C40 0%, #3F177C 40%, #0D051C 100%);
+}
+
+/* --- Content Fade-In Animation --- */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* --- Animated Star Layers (Background) --- */
+/* Base styles and shared animation for all star layers */
+#stars, #stars2, #stars3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; 
+    
+    /* Subtle star dots: Large size, low opacity (0.15) */
+    background-image: radial-gradient(3px 3px at 20px 30px, rgba(255, 255, 255, 0.15), rgba(0,0,0,0)), 
+                      radial-gradient(3px 3px at 40px 70px, rgba(255, 255, 255, 0.15), rgba(0,0,0,0)), 
+                      radial-gradient(4.5px 4.5px at 50px 20px, rgba(255, 255, 255, 0.15), rgba(0,0,0,0)), 
+                      radial-gradient(3px 3px at 90px 40px, rgba(255, 255, 255, 0.15), rgba(0,0,0,0));
+                      
+    transition: transform 0.2s ease-out; /* Smooth transition for mouse parallax */
+    animation: move-bg 60s linear infinite; /* Ultra-slow continuous background movement */
+}
+
+@keyframes move-bg {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(100px, 100px);
+    }
+}
+
+/* Layer 1 (Closest/Fastest Parallax, Standard movement speed) */
+#stars {
+    background-size: 150px 150px; 
+}
+
+/* Layer 2 (Middle depth, Reversed movement speed) */
+#stars2 {
+    background-size: 225px 225px; 
+    animation: move-bg 120s linear infinite reverse; 
+}
+
+/* Layer 3 (Farthest/Slowest Parallax, Custom movement speed) */
+#stars3 {
+    background-size: 300px 300px; 
+    animation: move-bg 80s linear infinite; 
+}
+
+/* --- Hero Content Container --- */
+.hero-container {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    
+    opacity: 0; /* Start invisible for fade-in */
+    animation: fadeIn 2s ease-out forwards; /* Apply fade-in animation on load */
+}
+
+/* --- Logo and Brand Text --- */
+.logo-area {
+    margin-bottom: 30px;
+}
+.logo-icon {
+    margin: 0 auto 10px;
+    display: block;
+}
+.brand-name {
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #FFD700; /* Gold color */
+    margin: 0;
+    text-transform: uppercase;
+}
+.brand-ai {
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: 10px;
+    color: #00FFFF; /* Cyan color */
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* --- Main Headline Text --- */
+.headline {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sub-headline {
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+/* --- Deliverables Section --- */
+.deliverables {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.item {
+    flex: 1;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+.item p {
+    margin: 0;
+}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 768px) {
+    .brand-name { font-size: 3em; }
+    .brand-ai { font-size: 1.5em; }
+    .headline { font-size: 1.8em; }
+    .deliverables { flex-direction: column; }
+}
