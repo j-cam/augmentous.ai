@@ -1,19 +1,39 @@
-const stars1 = document.getElementById('stars');
-const stars2 = document.getElementById('stars2');
-const stars3 = document.getElementById('stars3');
+// Augmentous Systems — main.js
 
-function handleParallax(e) {
-    const centerX = window.innerWidth / 2;
-    const centerY = window.innerHeight / 2;
-    const x = e.clientX - centerX;
-    const y = e.clientY - centerY;
+// Nav background intensifies on scroll
+const nav = document.querySelector('nav');
+window.addEventListener('scroll', () => {
+    if (window.scrollY > 40) {
+        nav.style.background = 'rgba(8,11,16,0.97)';
+    } else {
+        nav.style.background = 'rgba(8,11,16,0.88)';
+    }
+});
 
-    const speed1 = 0.005;
-    const speed2 = 0.010;
-    const speed3 = 0.015;
+// Smooth scroll for all anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', e => {
+        const target = document.querySelector(anchor.getAttribute('href'));
+        if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+});
 
-    stars1.style.transform = `translate(${-x * speed1}px, ${-y * speed1}px)`;
-    stars2.style.transform = `translate(${-x * speed2}px, ${-y * speed2}px)`;
-    stars3.style.transform = `translate(${-x * speed3}px, ${-y * speed3}px)`;
-}
-document.addEventListener('mousemove', handleParallax);
+// Intersection Observer — fade in sections on scroll
+const observer = new IntersectionObserver(
+    entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+    });
+    },
+    { threshold: 0.1 }
+);
+
+document.querySelectorAll('.service-card, .credential-list li').forEach(el => {
+    observer.observe(el);
+});

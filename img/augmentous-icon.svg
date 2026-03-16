@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 96" fill="none">
+
+  <!-- Platform (3 steps) -->
+  <rect x="4"  y="76" width="92" height="7"  stroke="#f0ece4" stroke-width="2"   fill="none"/>
+  <rect x="1"  y="83" width="98" height="6"  stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+  <rect x="0"  y="89" width="100" height="7" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+
+  <!-- Column 1: cx=14 -->
+  <rect x="7"  y="46" width="14" height="30" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+  <line x1="10"  y1="48" x2="10"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="12.5" y1="48" x2="12.5" y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="14"  y1="48" x2="14"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="15.5" y1="48" x2="15.5" y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="18"  y1="48" x2="18"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="7"  y1="49" x2="21" y2="49" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="7"  y1="51" x2="21" y2="51" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="7"  y1="46" x2="4"  y2="40" stroke="#f0ece4" stroke-width="1.2"/>
+  <line x1="21" y1="46" x2="24" y2="40" stroke="#f0ece4" stroke-width="1.2"/>
+  <rect x="4"  y="36" width="20" height="4" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+
+  <!-- Column 2: cx=36 -->
+  <rect x="29" y="46" width="14" height="30" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+  <line x1="32"  y1="48" x2="32"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="34.5" y1="48" x2="34.5" y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="36"  y1="48" x2="36"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="37.5" y1="48" x2="37.5" y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="40"  y1="48" x2="40"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="29" y1="49" x2="43" y2="49" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="29" y1="51" x2="43" y2="51" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="29" y1="46" x2="26" y2="40" stroke="#f0ece4" stroke-width="1.2"/>
+  <line x1="43" y1="46" x2="46" y2="40" stroke="#f0ece4" stroke-width="1.2"/>
+  <rect x="26" y="36" width="20" height="4" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+
+  <!-- Column 3: cx=58 -->
+  <rect x="51" y="46" width="14" height="30" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+  <line x1="54"  y1="48" x2="54"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="56.5" y1="48" x2="56.5" y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="58"  y1="48" x2="58"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="59.5" y1="48" x2="59.5" y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="62"  y1="48" x2="62"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="51" y1="49" x2="65" y2="49" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="51" y1="51" x2="65" y2="51" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="51" y1="46" x2="48" y2="40" stroke="#f0ece4" stroke-width="1.2"/>
+  <line x1="65" y1="46" x2="68" y2="40" stroke="#f0ece4" stroke-width="1.2"/>
+  <rect x="48" y="36" width="20" height="4" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+
+  <!-- Column 4: cx=80 -->
+  <rect x="73" y="46" width="14" height="30" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+  <line x1="76"  y1="48" x2="76"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="78.5" y1="48" x2="78.5" y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="80"  y1="48" x2="80"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="81.5" y1="48" x2="81.5" y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="84"  y1="48" x2="84"  y2="75" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="73" y1="49" x2="87" y2="49" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="73" y1="51" x2="87" y2="51" stroke="#f0ece4" stroke-width="0.6"/>
+  <line x1="73" y1="46" x2="70" y2="40" stroke="#f0ece4" stroke-width="1.2"/>
+  <line x1="87" y1="46" x2="90" y2="40" stroke="#f0ece4" stroke-width="1.2"/>
+  <rect x="70" y="36" width="20" height="4" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+
+  <!-- Architrave -->
+  <rect x="2" y="30" width="96" height="6" stroke="#f0ece4" stroke-width="2" fill="none"/>
+  <line x1="2" y1="33" x2="98" y2="33" stroke="#f0ece4" stroke-width="0.6"/>
+
+  <!-- Frieze + triglyphs -->
+  <rect x="2" y="16" width="96" height="14" stroke="#f0ece4" stroke-width="1.5" fill="none"/>
+  <rect x="8"  y="16" width="10" height="14" stroke="#f0ece4" stroke-width="1" fill="rgba(240,236,228,0.07)"/>
+  <line x1="11" y1="18" x2="11" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+  <line x1="13" y1="18" x2="13" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+  <line x1="15" y1="18" x2="15" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+
+  <rect x="30" y="16" width="10" height="14" stroke="#f0ece4" stroke-width="1" fill="rgba(240,236,228,0.07)"/>
+  <line x1="33" y1="18" x2="33" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+  <line x1="35" y1="18" x2="35" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+  <line x1="37" y1="18" x2="37" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+
+  <rect x="52" y="16" width="10" height="14" stroke="#f0ece4" stroke-width="1" fill="rgba(240,236,228,0.07)"/>
+  <line x1="55" y1="18" x2="55" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+  <line x1="57" y1="18" x2="57" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+  <line x1="59" y1="18" x2="59" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+
+  <rect x="74" y="16" width="10" height="14" stroke="#f0ece4" stroke-width="1" fill="rgba(240,236,228,0.07)"/>
+  <line x1="77" y1="18" x2="77" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+  <line x1="79" y1="18" x2="79" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+  <line x1="81" y1="18" x2="81" y2="28" stroke="#f0ece4" stroke-width="0.8"/>
+
+  <!-- Pediment outer -->
+  <line x1="2"  y1="16" x2="50" y2="2" stroke="#f0ece4" stroke-width="2"/>
+  <line x1="98" y1="16" x2="50" y2="2" stroke="#f0ece4" stroke-width="2"/>
+  <!-- Pediment inner -->
+  <line x1="10" y1="16" x2="50" y2="6" stroke="#f0ece4" stroke-width="1"/>
+  <line x1="90" y1="16" x2="50" y2="6" stroke="#f0ece4" stroke-width="1"/>
+
+  <!-- Circuit traces in amber -->
+  <circle cx="50" cy="6" r="3" fill="#e8a020"/>
+  <line x1="50" y1="9"  x2="50" y2="15" stroke="#e8a020" stroke-width="1.5"/>
+  <line x1="50" y1="11" x2="36" y2="11" stroke="#e8a020" stroke-width="1.2"/>
+  <line x1="36" y1="11" x2="36" y2="15" stroke="#e8a020" stroke-width="1.2"/>
+  <circle cx="36" cy="15" r="2" fill="#e8a020"/>
+  <line x1="50" y1="11" x2="64" y2="11" stroke="#e8a020" stroke-width="1.2"/>
+  <line x1="64" y1="11" x2="64" y2="15" stroke="#e8a020" stroke-width="1.2"/>
+  <circle cx="64" cy="15" r="2" fill="#e8a020"/>
+  <circle cx="50" cy="11" r="1.5" fill="#e8a020"/>
+
+</svg>

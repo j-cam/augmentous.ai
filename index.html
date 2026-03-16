@@ -1,52 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Augmentous AI - Orchestrating the Future of Enterprise Front-End Systems</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Augmentous Systems — AI Governance for Legacy Systems</title>
+  <meta name="description" content="Jamie Campbell helps engineering teams use AI as a precision instrument. AI Governance consulting for legacy codebases. Founder, Augmentous Systems."/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=IBM+Plex+Mono:wght@400;500&family=Figtree:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-    <div class="hero-container" id="hero-content">
-        <div class="logo-area">
-            <svg class="logo-icon" width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="10" y="80" width="80" height="5" stroke="#FFD700" stroke-width="2"/>
-                <rect x="15" y="75" width="70" height="5" stroke="#FFD700" stroke-width="2"/>
-                <rect x="20" y="70" width="60" height="5" stroke="#FFD700" stroke-width="2"/>
-                <line x1="25" y1="70" x2="25" y2="30" stroke="#FFD700" stroke-width="2"/>
-                <line x1="50" y1="70" x2="50" y2="30" stroke="#FFD700" stroke-width="2"/>
-                <line x1="75" y1="70" x2="75" y2="30" stroke="#FFD700" stroke-width="2"/>
-                <line x1="10" y1="30" x2="90" y2="30" stroke="#FFD700" stroke-width="2"/>
-                <path d="M10 30 L50 10 L90 30" stroke="#FFD700" stroke-width="2"/>
-                <circle cx="25" cy="82.5" r="2" fill="#FFD700"/>
-                <circle cx="50" cy="82.5" r="2" fill="#FFD700"/>
-                <circle cx="75" cy="82.5" r="2" fill="#FFD700"/>
-            </svg>
-            <h1 class="brand-name">AUGMENTOUS</h1>
-            <h2 class="brand-ai">AI</h2>
-        </div>
 
-        <div class="hero-content">
-            <h3 class="headline">Orchestrating the Future of Enterprise Front-End Systems</h3>
-            <p class="sub-headline">Transforming Legacy to Leverage with AI-Powered Agents</p>
-        </div>
+  <!-- ── NAV ── -->
+  <nav>
+    <a href="#hero" class="nav-logo-lockup">
+      <span class="nav-logo-text">Augmentous</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#show">The Show</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <a href="mailto:jamie@augmentous.ai" class="nav-cta">Get In Touch</a>
+  </nav>
 
-        <div class="deliverables">
-            <div class="item">
-                <p>WCAG/ADA Compliance</p>
-            </div>
-            <div class="item">
-                <p>Algorithmic Performance</p>
-            </div>
-            <div class="item">
-                <p>Legacy UI Modernization</p>
-            </div>
-        </div>
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-copy">
+      <div class="hero-logo-mark">
+        <img src="img/augmentous-logo.svg" alt="Augmentous Systems" height="90"/>
+      </div>
+      <div class="hero-eyebrow">Augmentous Systems</div>
+      <h1 class="hero-headline">
+        AI Governance for Systems That Can't Afford to <em>Break</em>
+      </h1>
+      <p class="hero-sub">
+        Jamie Campbell helps engineering teams use AI as a precision instrument — not a wrecking ball. Twenty years of frontend engineering. Zero tolerance for vibe coding.
+      </p>
+      <div class="hero-actions">
+        <a href="mailto:jamie@augmentous.ai" class="btn-primary">Get In Touch</a>
+        <a href="#services" class="btn-ghost">See What We Do</a>
+      </div>
     </div>
-    <script src="./js/scripts.js"></script>
+
+    <div class="hero-visual">
+      <div class="hero-photo-wrap">
+        <!-- Replace with your actual headshot: img/jamie-campbell.jpg -->
+        <img
+          src="img/jamie-campbell.png"
+          alt="Jamie Campbell, AI Systems Architect"
+          class="hero-photo"
+          onerror="this.src='https://via.placeholder.com/340x400/0d1117/e8a020?text=Jamie+Campbell'"
+        />
+        <div class="hero-photo-caption">
+          <strong>Jamie Campbell</strong>
+          <span>Principal AI Agentic Architect</span>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">20+</div>
+          <div class="stat-label">Years Engineering</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Legacy Debt Cleared</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">0</div>
+          <div class="stat-label">Unsupervised Merges</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROBLEM ── -->
+  <section id="problem">
+    <div class="container">
+      <div class="problem-inner">
+        <div>
+          <div class="section-label">The Problem</div>
+          <h2>Your AI Is Running <em>Unsupervised</em></h2>
+        </div>
+        <div class="problem-body">
+          <p>
+            <strong>Vibe coding breaks things.</strong> Junior AI usage creates technical debt faster than it clears it. And in most engineering orgs, no one has the seniority — or the framework — to govern what the AI is actually doing to the codebase.
+          </p>
+          <p>
+            Legacy systems don't forgive careless automation. A missed accessibility violation is an ADA lawsuit. An unchecked refactor is a regression in production. An unsupervised merge is a 3am incident.
+          </p>
+          <p>
+            <strong>That's the gap Augmentous Systems fills.</strong> We install the governance layer that keeps AI moving fast without moving recklessly.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section id="services">
+    <div class="container">
+      <div class="services-header">
+        <div class="section-label">Services</div>
+        <h2>What Augmentous <em>Systems</em> Does</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <h3>AI Governance Consulting</h3>
+          <p>Install human-in-the-loop guardrails that keep AI changes auditable, reversible, and senior-approved. No autonomous merges. No unchecked rewrites.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">02</div>
+          <h3>Legacy Codebase Triage</h3>
+          <p>Identify accessibility, security, and architectural liabilities before they become incidents. ADA compliance, dependency rot, and build-system decay — all surfaced and prioritized.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <h3>Agentic Workflow Architecture</h3>
+          <p>Design and implement AI agent systems that propose changes, not impose them. The right AI does the work. The senior architect makes the call.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <h3>Fractional AI Architect</h3>
+          <p>Senior-level AI governance oversight for engineering teams that need the expertise without the full-time headcount. Embedded, accountable, and on-call.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SHOW ── -->
+  <section id="show">
+    <div class="container">
+      <div class="show-inner">
+        <div>
+          <span class="show-tag">Now Airing</span>
+          <h2>The <em>StrAIghtener</em></h2>
+          <p class="show-desc">
+            A show for engineering leaders navigating the age of AI rot. Real workflows. Real legacy code. Real guardrails. Watch an AI governance system get built — and stopped — in real time.
+          </p>
+          <ul class="show-features">
+            <li>Agentic PR workflows with Senior Veto</li>
+            <li>Live accessibility triage on real legacy repos</li>
+            <li>Claude Code embedded in VS Code terminal</li>
+            <li>Human-in-the-loop architecture, demonstrated</li>
+          </ul>
+          <a href="#contact" class="btn-primary">Get Notified</a>
+        </div>
+        <div class="show-visual">
+          <div class="terminal">
+            <div><span class="prompt">$</span> <span class="cmd">claude "Scan repo for high-liability accessibility debt"</span></div>
+            <div class="output">» Scanning 847 components...</div>
+            <div class="output">» Running ADA compliance audit...</div>
+            <div class="warn">⚠ 14 missing ARIA labels found</div>
+            <div class="warn">⚠ 3 keyboard trap violations</div>
+            <div class="output">» Generating remediation plan...</div>
+            <br>
+            <div><span class="prompt">$</span> <span class="cmd">claude "Execute approved plan. Branch: fix/a11y-triage"</span></div>
+            <div class="output">» Creating branch fix/a11y-triage...</div>
+            <div class="output">» Applying 14 ARIA label patches...</div>
+            <div class="success">✓ Changes staged. Awaiting Senior review.</div>
+            <div class="warn">⛔ Merge to main: BLOCKED — Senior Veto required</div>
+            <br>
+            <div><span class="prompt">$</span> <span class="cmd">python scripts/create_pr.py</span></div>
+            <div class="success">✓ PR Created: Awaiting architect approval</div>
+            <div><span class="cursor"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="container">
+      <div class="about-inner">
+        <div class="about-sidebar">
+          <div class="section-label">About</div>
+          <h2>Jamie <em>Campbell</em></h2>
+          <ul class="credential-list">
+            <li>
+              <span class="cred-title">Principal AI Agentic Architect</span>
+              <span class="cred-sub">WGA Advisors</span>
+              <span class="cred-detail">Enterprise agentic systems, EverWorker platform</span>
+            </li>
+            <li>
+              <span class="cred-title">Sr. Frontend Engineer</span>
+              <span class="cred-sub">JLOOP</span>
+              <span class="cred-detail">React-focused agency, full-time</span>
+            </li>
+            <li>
+              <span class="cred-title">Founder</span>
+              <span class="cred-sub">Augmentous Systems LLC</span>
+              <span class="cred-detail">AI Governance consulting practice</span>
+            </li>
+            <li>
+              <span class="cred-title">Host</span>
+              <span class="cred-sub">The StrAIghtener</span>
+              <span class="cred-detail">AI governance content for engineering leaders</span>
+            </li>
+          </ul>
+        </div>
+        <div class="about-body">
+          <p>
+            I started writing code when the web was young — Flash, ActionScript, hand-coded HTML before frameworks had opinions. <strong>Twenty years later I've watched every generation of tools promise to replace the engineer and fail.</strong> AI won't be different. But it will be dangerous in the hands of teams without a governance framework.
+          </p>
+          <blockquote>
+            "The senior engineer's job isn't to write the code anymore. It's to decide what the AI is allowed to do with it."
+          </blockquote>
+          <p>
+            Today I work as Principal AI Agentic Architect at WGA Advisors, designing systems that integrate fragmented enterprise platforms using agentic workflows and RAG-based retrieval. I also carry a full-time senior engineering role at JLOOP and run Augmentous Systems as a consulting practice for teams that need senior AI governance without the senior headcount cost.
+          </p>
+          <p>
+            <strong>I built this practice because the gap between legacy systems and modern AI tooling is where the most expensive problems live.</strong> Most teams are already using AI. Very few have a senior architect watching the blast radius.
+          </p>
+          <p>
+            Based in Davis, California. Available for fractional engagements, advisory roles, and enterprise consulting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-copy">
+          <div class="section-label">Contact</div>
+          <h2>Let's <em>Talk</em></h2>
+          <p>
+            Whether you're an engineering leader with a legacy problem or a recruiter with a relevant opportunity — I'm direct and easy to reach.
+          </p>
+          <a href="mailto:jamie@augmentous.ai" class="contact-link">jamie@augmentous.ai</a>
+          <div class="contact-meta">
+            <span>Davis, California</span>
+            <span>Available for fractional &amp; advisory engagements</span>
+            <span>Open to relevant recruiter outreach</span>
+          </div>
+        </div>
+        <div class="contact-aside">
+          <h3>Good Fits</h3>
+          <ul class="fit-list">
+            <li>Engineering teams with legacy codebases moving to AI-assisted development</li>
+            <li>CTOs who need a senior architect to govern agentic workflows</li>
+            <li>Organizations with ADA compliance or security liability in aging frontends</li>
+            <li>Recruiters placing AI Architect, AI Engineer, or Senior Frontend roles</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <span class="footer-logo">Augmentous Systems LLC</span>
+    <span class="footer-copy">© 2026 Jamie Campbell — Davis, California — augmentous.ai</span>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
